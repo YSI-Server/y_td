@@ -57,21 +57,21 @@ Changelog:
 </remarks>
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 
-#include "..\YSI-Core\y_debug"
-#include "..\YSI-Data\y_bit"
+#include "..\YSI_Core\y_debug"
+#include "..\YSI_Data\y_bit"
 
-#include "..\YSI-Storage\y_xml"
+#include "..\YSI_Storage\y_xml"
 
-#include "..\YSI-Core\y_utils"
-#include "..\YSI-Server\y_colours"
-#include "..\YSI-Coding\y_stringhash"
+#include "..\YSI_Core\y_utils"
+#include "..\YSI_Server\y_colours"
+#include "..\YSI_Coding\y_stringhash"
 
-#include "..\YSI-Coding\y_timers"
+#include "..\YSI_Coding\y_timers"
 
-#include "..\YSI-Data\y_iterate"
-#include "..\YSI-Coding\y_hooks"
+#include "..\YSI_Data\y_iterate"
+#include "..\YSI_Coding\y_hooks"
 
 //#include "y_timer"
 
