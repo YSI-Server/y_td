@@ -75,17 +75,17 @@ Optional plugins:
 	Me - sscanf2, fixes2, Whirlpool.
 */
 
-#include "..\..\YSI_Core\y_utils"
+#include <YSI-Core\y_utils>
 
-#include "..\..\YSI_Storage\y_xml"
+#include <YSI-Storage\y_xml>
 
-#include "..\..\YSI_Server\y_colours"
-#include "..\..\YSI_Coding\y_stringhash"
+#include <YSI-Server\y_colours>
+#include <YSI-Coding\y_stringhash>
 
-#include "..\..\YSI_Coding\y_timers"
+#include <YSI-Coding\y_timers>
 
-#include "..\..\YSI_Data\y_iterate"
-#include "..\..\YSI_Coding\y_hooks"
+#include <YSI-Data\y_iterate>
+#include <YSI-Coding\y_hooks>
 
 #if !defined MAX_TEXT_DRAW_STYLES
 	#define MAX_TEXT_DRAW_STYLES        (Style:32)
