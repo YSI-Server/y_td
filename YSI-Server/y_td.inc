@@ -88,16 +88,16 @@ Optional plugins:
 	#tryinclude "y_td\y_td_entry"
 #endif
 #if !defined _INC_y_td
-	#tryinclude "YSI_Server\y_td\y_td_entry"
+	#tryinclude "YSI-Server\y_td\y_td_entry"
 #endif
 #if !defined _INC_y_td
-	#tryinclude "YSI\YSI_Server\y_td\y_td_entry"
+	#tryinclude "YSI\YSI-Server\y_td\y_td_entry"
 #endif
 #if !defined _INC_y_td
-	#tryinclude <YSI_Server\y_td\y_td_entry>
+	#tryinclude <YSI-Server\y_td\y_td_entry>
 #endif
 #if !defined _INC_y_td
-	#tryinclude <YSI\YSI_Server\y_td\y_td_entry>
+	#tryinclude <YSI\YSI-Server\y_td\y_td_entry>
 #endif
 #if !defined _INC_y_td
 	#error Could not find y_td
